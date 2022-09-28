@@ -1,0 +1,58 @@
+switch(n) {
+  case 1:
+    // блок кода 1;
+    break;
+  case 2:
+    // блок кода 2;
+    break;  
+   
+  // .......
+  // другие варианты  case
+  // .......  
+  default: 
+    // блок кода если не подошло ни одно условие;
+
+
+
+
+
+var a = 3;   //о
+var x = "";  //объявляем переменную через вар - переменная будет видна в любом месте модуля
+
+switch (a) {
+  case 1:                               // если a равна единице то записываем 
+    x = "Переменная a равна единице!";  // в переменную x фразу "Переменная a равна единице!"
+    break;
+  case 2:
+    x = "Переменная a равна двум!";
+    break;
+  case 3:
+    x = "Переменная a равна трем!";
+    break;
+  default:
+    x = "Переменная a не равна 1, 2 или 3!";
+}
+
+// В итоге результат выполнения switch оказывается в переменной x
+
+
+
+
+
+
+питон:
+def number_to_string(argument):
+    match argument:
+        case 0:
+            return "zero"
+        case 1:
+            return "one"
+        case 2:
+            return "two"
+        case default:
+            return "something"
+ 
+ 
+if __name__ = "__main__":
+    argument = 0
+    number_to_string(argument)
