@@ -8,3 +8,20 @@ const increaseNum = num => num + 10;
 const num = 6; // создаем переменную - неизменяемую
 const result = isEven(increaseNum(num) + 1) ? num + 1 : 1 - num;
                //условие - (true/false)     то        иначе
+
+
+
+const testScore = 10;
+const result = testScore < 10 ? 'bad' : 'good';   //если тестСкор <10 ?-то "bad" :иначе "good"
+console.log(result);
+
+
+const getColour = (colour) => {
+  if (colour === 'white') {
+    return 'white';
+  } else {
+    return 'black';
+  }
+ };
+
+const getColour =(colour) =>(colour==="12"? "white":"black") 

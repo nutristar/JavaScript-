@@ -41,12 +41,24 @@ function testCase(a) {
 
 const x=(radius)=>{return 3.14*radius**2};
 const s = x(2);
-// const .
-console.log(s)
-document.write(s)
+const getColour =(colour) =>(colour===12 ? "white":"black")
+// console.log(getColour(10))
+
+const finalGrade=(exam, projects)=> {
+    if (projects>10  || exam>90){
+        return 100;
+    } else if (exam>75 && projects>=5){
+        return 90;
+
+    } else if (exam>50 && projects>= 2){
+        return 75;
+    } else {
+        return 0;
+    }
+
+}
 
 
+document.write(finalGrade(700, 225))
 
-export default HowToRiseFunction;
-export default HowToRiseFunction;
 
