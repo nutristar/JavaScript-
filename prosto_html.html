@@ -1,15 +1,43 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
+
 </head>
 <body>
-<script src="my_first_js_file.js">
+<!--<script src="my_first_js_file.js">-->
 
-</script>
+<!--</script>-->
+<div class="container" style="text-align: center;">
+    <h1 style="text-align: center;">CALLKULATOR</h1>
+    <div class="row">
+        <div class ="input-field col s6 offset-s3">
+            <input type="number" placeholder="" id = "num1" />
+        </div>
+        <br>
+        <div class ="input-field col s6 offset-s3">
+            <input type="number" placeholder="" id = "num2" />
+        </div>
+        <br>
+        <div class="col s6 offset-s3" style="text-align: center;">
+            <button class="btn" id="add" style="text-align: center;">+</button>
+            <button class="btn" id="sub" style="text-align: center;">-</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="card col s6 offset-s3" style="text-align: center">
+            <div class="card-content">
+                <div class="card-title" id="output"></div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<script src="factorial.js">
+<script src="app.js">
 
 </script>
 
